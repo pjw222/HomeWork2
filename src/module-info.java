@@ -4,5 +4,5 @@
 /**
  * 
  */
-module c0829 {
+module Java4 {
 }
