@@ -15,7 +15,7 @@ interface InterfaceTest{
 	private static void privateStaticMethodTest()
 	{
 		System.out.println("privaate 메서드 가능?!");
-		// private 메서드 호출 가능? 불가능?	1111111	
+		// private 메서드 호출 가능? 불가능?
 	}
 	private void privateMethodTest()
 	{
