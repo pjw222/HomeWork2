@@ -1,4 +1,4 @@
-package homework.h230822;
+package homeworks;
 
 public class Shadower {
 //	public static void main(String[] args) {

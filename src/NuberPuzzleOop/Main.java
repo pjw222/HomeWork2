@@ -25,8 +25,9 @@ public class Main {
 			System.out.println("p를 옮겨서 1~" + (countX * countY -1)+ "순서로 맞춰라");
 			System.out.println("2 : 하 / 8 : 상 / 4 : 좌 / 6 : 우 / 0 : 종료 / 5 : 리셋");
 
-			String directions = sc.nextLine();
-			int direction =Integer.parseInt(directions);
+//			String directions = sc.nextLine();
+//			int direction =Integer.parseInt(directions);
+			int direction = sc.nextInt();
 			System.out.println(direction);
 			if(direction == 0) break;
 			if(direction == 5) puzzle.shuffle();

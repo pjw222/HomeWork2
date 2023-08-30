@@ -15,6 +15,7 @@ public class Moving {
 		switch(direction){
 		case 2:
 			movingPlayerY++;
+			System.out.println("");
 			break;
 		case 4:
 			movingPlayerX--;

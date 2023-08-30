@@ -19,16 +19,5 @@ public class Player {
 	public int getY() {
 		return y;
 	}
-	public void setPositions(String xs, String ys)
-	{
-		this.xs= xs;
-		this.ys= ys;
-	}
-	public String getXs() {
-		return xs;
-	}
-	public String getYs() {
-		return ys;
-	}
 
 }
