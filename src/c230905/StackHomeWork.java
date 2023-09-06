@@ -22,11 +22,14 @@ class Stack<T>{
 		}
 	
 		T t = stackArrayList.remove(stackArrayList.size()-1);
-		System.out.println("팝 한 목록 :"+t);
+		System.out.println("팝 한 목록 :"+ t);
 		System.out.println("리스트 목록 :" +stackArrayList);
 		
 		return t;
 		
+	}
+	public int size() {
+		return stackArrayList.size();
 	}
 
 	public boolean isEmpty()
@@ -51,6 +54,7 @@ public class StackHomeWork {
 		stack.pop();
 		stack.pop();
 		stack.pop();
+		System.out.println(stack.size());
 		
 	}
 
