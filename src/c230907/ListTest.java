@@ -10,6 +10,6 @@ public class ListTest {
 	// LinkedList
 	//node < - > node < - > node => double LinkedList
 	// node -> node -> node => single LinkedList
-	// node(start) -> node -> node(end) -> node(start) => 
+	// node(start) -> node -> node(end) -> node(start) => circle LinkedList
 	// BigData => LinkedList  
 }

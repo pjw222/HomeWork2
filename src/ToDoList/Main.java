@@ -16,15 +16,13 @@ public class Main {
 			String toDo = today.getToDo();
 			int importance = today.getImportance();
 			WEEK select = today.selectDay();
-			
-
 
 			switch(select)
 			{
 			case MONDAY :
 				System.out.println("월요일 입니다.");
+				sc.nextLine();
 				toDo = sc.nextLine();
-				System.out.println();
 				importance = sc.nextInt();
 				today.addtoDo(today, toDo, importance);
 				break;
@@ -32,43 +30,43 @@ public class Main {
 				System.out.println("화요일 입니다.");
 				sc.nextLine();
 				toDo = sc.nextLine();
-				importance = sc.nextInt(); 	
-				System.out.println(toDo+"  할일 "+importance+" 중요도");
+				importance = sc.nextInt();
+				today.addtoDo(today, toDo, importance);
 				break;
 			case WEDNESDAY :
 				System.out.println("수요일 입니다.");
 				sc.nextLine();
 				toDo = sc.nextLine();
-				importance = sc.nextInt(); 	
-				System.out.println(toDo+"  할일 "+importance+" 중요도");
+				importance = sc.nextInt();
+				today.addtoDo(today, toDo, importance);
 				break;
 			case THURSDAY :
 				System.out.println("목요일 입니다.");
 				sc.nextLine();
 				toDo = sc.nextLine();
-				importance = sc.nextInt(); 	
-				System.out.println(toDo+"  할일 "+importance+" 중요도");
+				importance = sc.nextInt();
+				today.addtoDo(today, toDo, importance);
 				break;
 			case FRIDAY :
 				System.out.println("금요일 입니다.");
 				sc.nextLine();
 				toDo = sc.nextLine();
-				importance = sc.nextInt(); 	
-				System.out.println(toDo+"  할일 "+importance+" 중요도");
+				importance = sc.nextInt();
+				today.addtoDo(today, toDo, importance);
 				break;
 			case SATURDAY :
 				System.out.println("토요일 입니다.");
 				sc.nextLine();
 				toDo = sc.nextLine();
 				importance = sc.nextInt();
-				System.out.println(toDo+"  할일 "+importance+" 중요도");
+				today.addtoDo(today, toDo, importance);
 				break;
 			case SUNDAY :
 				System.out.println("일요일 입니다.");
 				sc.nextLine();
 				toDo = sc.nextLine();
 				importance = sc.nextInt();
-				System.out.println(toDo+"  할일 "+importance+" 중요도");
+				today.addtoDo(today, toDo, importance);
 				break;
 			case REMOVE:
 				//today.removetoDo(today);

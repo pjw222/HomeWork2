@@ -12,17 +12,17 @@ public class Maptest {
 		// 중복의 주체와 데이터가 다른지 확인
 		// 저장되었을때 순서대로 나온다는 보장이 없다.
 		// 중복체크만하기 때문
-		map.put("권원준", 7);
-		map.put("김남균", 8);
-		map.put("임현규", 23);
-		map.put("김동선", 3);
-		map.put("정경훈", 7);
+		map.put("권AA", 7);
+		map.put("김AA", 8);
+		map.put("임AA", 23);
+		map.put("김AB", 3);
+		map.put("정AA", 7);
 		System.out.println(map.size());
-		map.put("정경훈", 13);
+		map.put("정AA", 13);
 		System.out.println(map.size());
-		System.out.println(map.get("정경훈"));
-		map.remove("정경훈");
-		System.out.println(map.get("정경훈"));
+		System.out.println(map.get("정AA"));
+		map.remove("정AA");
+		System.out.println(map.get("정AA"));
 		
 		
 		Set<String> keySet = map.keySet();

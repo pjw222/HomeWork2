@@ -63,7 +63,7 @@ class TodayList extends Priority{
 	{
 
 		toDoList.add(priority);
-		System.out.println("할일 :"+toDo+"중요도 :"+importance);			
+		System.out.println("할일 : "+toDo+" 중요도 : "+importance);			
 
 	}
 	public void removetoDo(Priority priority)
