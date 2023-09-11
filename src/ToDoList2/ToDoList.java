@@ -10,7 +10,7 @@ class ToDoList {
 	private String doWork;
 	private int priorityNum;
 	private Map<String, Integer> map =new HashMap<>();
-	private List<String> priority = new ArrayList<>(map.keySet());
+	 
 	
 	public void setDoWork(String doWork)
 	{
@@ -35,7 +35,7 @@ class ToDoList {
 	}
 	public void prioritySorting()
 	{
-
+		List<String> priority = new ArrayList<>(map.keySet());
 		priority.sort(String::compareTo);
 		for (String key : priority) {
 			System.out.print("할일: " + key);
