@@ -1,7 +1,9 @@
 ## 오늘수업 쿼리문
 
 
-```
+```sql
+
+--alter table student drop constraint fk_hobby_to_student;
 drop table student2_hobby2;
 drop table hobby2;
 drop table student2;
