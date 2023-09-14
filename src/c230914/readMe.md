@@ -1,4 +1,7 @@
 ## 오늘수업 쿼리문
+
+
+`
 drop table student2_hobby2;
 drop table hobby2;
 drop table student2;
@@ -69,5 +72,6 @@ join hobby2 on hobby2.id = student2_hobby2.hobby2_id;
 
 select *from student2 where  id <= 3 and name like '김%';
 select count(*) from student2 where name like '김%';
+`
 
 ## tib md파일만 잘다뤄도 블로그대신 gitHub가 블로그의 역활을 한다
