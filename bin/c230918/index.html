@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>연습해보기</title>
+		<style>
+			.test{
+				color: blue;
+			}
+			.test2{
+				width : 50%;
+			}
+		 .jerry{
+				width : 50%;
+			}	
+		 .fastJerry{
+				width : 50%;
+			}
+		 .youtube{
+		 	width : 1200;
+		 	height : 1200;
+
+		 }			
+		</style>
+
+	</head>
+	<body>
+		<div style="color:red">빨강색</div>
+		<div class="test">요건 style 엘리먼트 사용</div>
+		<a href="https://naver.com">네이버링크</a>
+		<a href="./test2.jpg"> 이미지보기</a>
+		<div>이건 그냥 공간 나누기용</div>
+		
+		<h1>요건 제목 1</h1>
+		<h2>요건 제목 2</h2>
+		<h3>요건 제목 3</h3>
+		<h4>요건 제목 4</h4>
+		<h5>요건 제목 5</h5>
+		<h6>요건 제목 6</h6><br>
+		<center><h1>이미지 클릭시 구글 홈페이지</h1>
+		<a href="https://google.com"><img class="test2" src="./test2.jpg" alt="이미지가 없음" /></a>
+		<a href="https://github.com/pjw222"><img class="jerry" src="./jerry.gif" alt="이미지가 없음" /></a>
+		<a href="https://github.com/natseol"><img class="fastJerry" src="./fastJerry.gif" alt="이미지 없음" /></a><br>
+        <iframe class="youtube" 
+        src="https://www.youtube.com/embed/xjdy48-8Clw?si=7N1x3OrOqWzA2LJb?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+		<script>
+			let arr = ["하나", "둘", "셋", "넷", "다섯", "여섯", "일곱", "여덟", "아홉", "열"];
+			function a() {
+				let b = 0;
+			}
+			
+			class Test extends Number {
+				a;
+				constructor(){
+					
+				}
+			}
+		</script>
+		<script>
+			//let arr = ["하나", "둘", "셋", "넷", "다섯", "여섯", "일곱", "여덟", "아홉", "열"];
+			for(let i = 0; i < arr.length; i++){
+				
+			 	document.body.innerHTML += "<br>"+"<h1>" + arr[i] + "<h1>";
+			}
+		
+		</script>
+	</body>	
+</html>		
+			
