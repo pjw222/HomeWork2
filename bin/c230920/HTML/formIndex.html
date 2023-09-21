@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form태그</title>
+</head>
+<body>
+<!-- form : 사용자가 입력한 정보를 서버로 전송할때 
+로그인이나 회원가입 등등... -->
+<!-- get : 데이터량이 적거나 검색기능을 사용할 때 -->
+<!-- post : 데이터량의 제한이 없가나, 개인정보를 보호해야할때 -->
+    <form action="http://localhost/login/php" method="post">
+        <p>
+            아이디: <input type="text" name="id" 
+            value="아이디 입력" /></p>  
+        <p>
+            비밀번호: <input type="password" name="pwd""
+            value="default value" />
+        </p>
+        <input type="submit" />
+    </form>    
+</body>
+</html>

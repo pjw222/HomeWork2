@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사 과제</title>
+</head>
+<body>
+    <h1>설문 조사</h1><br/>
+ 
+    <form action="" method="get">
+        <h3>이름을 입력해주세요</h3>
+        <input type="text" name="이름" value="이름 입력" />
+        <input type="submit" value="입력" />
+        <fieldset>
+            <legend><h3>연령대 체크(1개만)</h3></legend>
+            <ul>
+                <li><input type="radio" name="age" value="9이하" />1 ~ 9 세</li>
+                <li><input type="radio" name="age" value="19세이하" />10 ~ 19 세</li>
+                <li><input type="radio" name="age" value="29세이하" />19 ~ 29 세</li>
+                <li><input type="radio" name="age" value="39세이하" />30 ~ 39 세</li>
+                <li><input type="radio" name="age" value="40세이상" />40 세 이상</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend><h3>취미 선택(중복가능)</h3></legend>
+            <ul>
+                <li><input type="checkbox" name="hobby" value="game">게임</li>
+                <li><input type="checkbox" name="hobby" value="walk">산책</li>
+                <li><input type="checkbox" name="hobby" value="reading">독서</li>
+                <li><input type="checkbox" name="hobby" value="movie">영화보기</li>
+                <li><input type="checkbox" name="hobby" value="travel">여행</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend><h3>사는곳 선택(1개만선택가능)</h3></legend>
+            <ul>
+                <li><input type="radio" name="residence" value="seoul" />서울</li>
+                <li><input type="radio" name="residence" value="gyeonggi-do" />경기도</li>
+                <li><input type="radio" name="residence" value="Chungcheong-do" />충청도</li>
+                <li><input type="radio" name="residence" value="Gyeongsang-do" />경상도</li>
+                <li><input type="radio" name="residence" value="Jeolla-do" />전라도</li>
+                <li><input type="radio" name="residence" value="Gangwon-do" />강원도</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend><h3>좋아하는 계절(중복가능)</h3></legend>
+            <ul>
+                <li><input type="checkbox" name="season" id="spring">봄</li>
+                <li><input type="checkbox" name="season" id="summer">여름</li>
+                <li><input type="checkbox" name="season" id="autumn">가을</li>
+                <li><input type="checkbox" name="season" id="winter">겨울</li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="입력" />
+    </form>
+    
+    
+</body>
+</html>
