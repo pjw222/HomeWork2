@@ -11,6 +11,5 @@ public class Required {
 		this.title = title;
 		this.content = content;
 	}
-	public 
-	
+
 }
