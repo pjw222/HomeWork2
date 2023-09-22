@@ -22,6 +22,9 @@ public class TreeSetTest {
 		
 		//밑에기능들은 전이나 그전 또는 그것에 해당하는것 하나만 가져온다.
 		System.out.println("처음은 " + treeSet.first());
+		System.out.println(treeSet.iterator().next());
+		System.out.println(treeSet.iterator().next());
+		System.out.println(treeSet.iterator().next());
 		
 		System.out.println("마지막은 " + treeSet.last());
 		
