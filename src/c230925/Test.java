@@ -48,7 +48,7 @@ public class Test {
 			if(Character.isUpperCase(b[i]))
 			{
 				b[i]=Character.toLowerCase(b[i]);
-				System.out.println(b[i]);
+					
 			}
 			else if(Character.isLowerCase(b[i]))
 			{
